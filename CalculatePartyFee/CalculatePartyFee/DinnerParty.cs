@@ -8,36 +8,38 @@ namespace CalculatePartyFee
 {
     class DinnerParty
     {
-        private int NumOfPeople;
-        public decimal CostOfBeveragePerPerson;
-        public decimal CostOfDecoration;
-        public const int CostOfFoodPerPerson = 25;
+        private int numOfPeople;
+        private bool fancyDecoration;
+        private bool healthyOption;
 
-        public void SetHealthyOption(bool healthyOption)
+        public int NumOfPeople { get { return numOfPeople; } set { numOfPeople = value; } }
+        public bool FancyDecoration { get { return fancyDecoration; } set { fancyDecoration = value; } }
+        public bool HealthyOption { get { return healthyOption; } set { healthyOption = value; } }
+        public decimal Cost { get {
+                decimal totalCost;
+                totalCost = this.CalcDecorationCost() + (decimal)numOfPeople * (this.CalcBeveragePerPersonCost() + 25M);
+                if (healthyOption)
+                    return 0.95M * totalCost;
+                return totalCost;
+            } }
+
+        public DinnerParty(int numOfPeople, bool fancyDecoration, bool healthyOption)
+        {
+            this.numOfPeople = numOfPeople;
+            this.fancyDecoration = fancyDecoration;
+            this.healthyOption = healthyOption;
+        }
+        private decimal CalcDecorationCost()
+        {
+            if (fancyDecoration)
+                return (decimal)numOfPeople * 15M + 50M;
+            return (decimal)numOfPeople * 7.5M + 30M;
+        }
+        private decimal CalcBeveragePerPersonCost()
         {
             if (healthyOption)
-                CostOfBeveragePerPerson = 5M;
-            else
-                CostOfBeveragePerPerson = 20M;
-        }
-        private void CalculateCostOfDecorations(bool fancy)
-        {
-            if (fancy)
-                CostOfDecoration = 15 * (decimal)NumOfPeople + 50;
-            else
-                CostOfDecoration = 7.5M * (decimal)NumOfPeople + 30;
-        }
-        public void SetPartyOption(int people, bool fancy)
-        {
-            NumOfPeople = people;
-            CalculateCostOfDecorations(fancy);
-        }
-        public decimal CalculateCost(bool healthyOption)
-        {
-            decimal totalFee = (decimal)NumOfPeople * ((decimal)CostOfFoodPerPerson + CostOfBeveragePerPerson) + CostOfDecoration;
-            if (healthyOption)
-                return totalFee * 0.95M;
-            return totalFee;
+                return 5M;
+            return 20M;
         }
     }
 }

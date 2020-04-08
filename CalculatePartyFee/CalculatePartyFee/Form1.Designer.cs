@@ -30,8 +30,8 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.beverageCheckbox = new System.Windows.Forms.CheckBox();
+            this.decorationCheckbox = new System.Windows.Forms.CheckBox();
             this.label3 = new System.Windows.Forms.Label();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.costLabel = new System.Windows.Forms.Label();
@@ -57,29 +57,29 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Cost";
             // 
-            // checkBox1
+            // beverageCheckbox
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(12, 78);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(96, 17);
-            this.checkBox1.TabIndex = 2;
-            this.checkBox1.Text = "Healthy Option";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            this.beverageCheckbox.AutoSize = true;
+            this.beverageCheckbox.Location = new System.Drawing.Point(12, 78);
+            this.beverageCheckbox.Name = "beverageCheckbox";
+            this.beverageCheckbox.Size = new System.Drawing.Size(96, 17);
+            this.beverageCheckbox.TabIndex = 2;
+            this.beverageCheckbox.Text = "Healthy Option";
+            this.beverageCheckbox.UseVisualStyleBackColor = true;
+            this.beverageCheckbox.CheckedChanged += new System.EventHandler(this.beverageCheckbox_CheckedChanged);
             // 
-            // checkBox2
+            // decorationCheckbox
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Checked = true;
-            this.checkBox2.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox2.Location = new System.Drawing.Point(12, 55);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(110, 17);
-            this.checkBox2.TabIndex = 3;
-            this.checkBox2.Text = "Fancy Decoration";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
+            this.decorationCheckbox.AutoSize = true;
+            this.decorationCheckbox.Checked = true;
+            this.decorationCheckbox.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.decorationCheckbox.Location = new System.Drawing.Point(12, 55);
+            this.decorationCheckbox.Name = "decorationCheckbox";
+            this.decorationCheckbox.Size = new System.Drawing.Size(110, 17);
+            this.decorationCheckbox.TabIndex = 3;
+            this.decorationCheckbox.Text = "Fancy Decoration";
+            this.decorationCheckbox.UseVisualStyleBackColor = true;
+            this.decorationCheckbox.CheckedChanged += new System.EventHandler(this.decorationCheckbox_CheckedChanged);
             // 
             // label3
             // 
@@ -131,8 +131,8 @@
             this.Controls.Add(this.costLabel);
             this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.decorationCheckbox);
+            this.Controls.Add(this.beverageCheckbox);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.MaximizeBox = false;
@@ -149,8 +149,8 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.CheckBox beverageCheckbox;
+        private System.Windows.Forms.CheckBox decorationCheckbox;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.Label costLabel;
