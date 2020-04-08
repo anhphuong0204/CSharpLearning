@@ -1,0 +1,10 @@
+C:\Users\ASUS\Desktop\Head First C#\CalculatePartyFee\CalculatePartyFee\bin\Debug\CalculatePartyFee.exe.config
+C:\Users\ASUS\Desktop\Head First C#\CalculatePartyFee\CalculatePartyFee\bin\Debug\CalculatePartyFee.exe
+C:\Users\ASUS\Desktop\Head First C#\CalculatePartyFee\CalculatePartyFee\bin\Debug\CalculatePartyFee.pdb
+C:\Users\ASUS\Desktop\Head First C#\CalculatePartyFee\CalculatePartyFee\obj\Debug\CalculatePartyFee.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\Head First C#\CalculatePartyFee\CalculatePartyFee\obj\Debug\CalculatePartyFee.Form1.resources
+C:\Users\ASUS\Desktop\Head First C#\CalculatePartyFee\CalculatePartyFee\obj\Debug\CalculatePartyFee.Properties.Resources.resources
+C:\Users\ASUS\Desktop\Head First C#\CalculatePartyFee\CalculatePartyFee\obj\Debug\CalculatePartyFee.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\Head First C#\CalculatePartyFee\CalculatePartyFee\obj\Debug\CalculatePartyFee.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Head First C#\CalculatePartyFee\CalculatePartyFee\obj\Debug\CalculatePartyFee.exe
+C:\Users\ASUS\Desktop\Head First C#\CalculatePartyFee\CalculatePartyFee\obj\Debug\CalculatePartyFee.pdb
