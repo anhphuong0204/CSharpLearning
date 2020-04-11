@@ -1,0 +1,10 @@
+C:\Users\ASUS\Desktop\Head First C#\ConstructorForBaseAndSubclass\ConstructorForBaseAndSubclass\obj\Debug\ConstructorForBaseAndSubclass.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\Head First C#\ConstructorForBaseAndSubclass\ConstructorForBaseAndSubclass\obj\Debug\ConstructorForBaseAndSubclass.Properties.Resources.resources
+C:\Users\ASUS\Desktop\Head First C#\ConstructorForBaseAndSubclass\ConstructorForBaseAndSubclass\obj\Debug\ConstructorForBaseAndSubclass.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\Head First C#\ConstructorForBaseAndSubclass\ConstructorForBaseAndSubclass\obj\Debug\ConstructorForBaseAndSubclass.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Head First C#\ConstructorForBaseAndSubclass\ConstructorForBaseAndSubclass\bin\Debug\ConstructorForBaseAndSubclass.exe.config
+C:\Users\ASUS\Desktop\Head First C#\ConstructorForBaseAndSubclass\ConstructorForBaseAndSubclass\bin\Debug\ConstructorForBaseAndSubclass.exe
+C:\Users\ASUS\Desktop\Head First C#\ConstructorForBaseAndSubclass\ConstructorForBaseAndSubclass\bin\Debug\ConstructorForBaseAndSubclass.pdb
+C:\Users\ASUS\Desktop\Head First C#\ConstructorForBaseAndSubclass\ConstructorForBaseAndSubclass\obj\Debug\ConstructorForBaseAndSubclass.exe
+C:\Users\ASUS\Desktop\Head First C#\ConstructorForBaseAndSubclass\ConstructorForBaseAndSubclass\obj\Debug\ConstructorForBaseAndSubclass.pdb
+C:\Users\ASUS\Desktop\Head First C#\ConstructorForBaseAndSubclass\ConstructorForBaseAndSubclass\obj\Debug\ConstructorForBaseAndSubclass.Form1.resources

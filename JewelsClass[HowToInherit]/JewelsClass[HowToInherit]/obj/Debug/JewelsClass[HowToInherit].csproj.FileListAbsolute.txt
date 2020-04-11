@@ -1,0 +1,7 @@
+C:\Users\ASUS\Desktop\Head First C#\JewelsClass[HowToInherit]\JewelsClass[HowToInherit]\bin\Debug\JewelsClass[HowToInherit].exe.config
+C:\Users\ASUS\Desktop\Head First C#\JewelsClass[HowToInherit]\JewelsClass[HowToInherit]\bin\Debug\JewelsClass[HowToInherit].exe
+C:\Users\ASUS\Desktop\Head First C#\JewelsClass[HowToInherit]\JewelsClass[HowToInherit]\bin\Debug\JewelsClass[HowToInherit].pdb
+C:\Users\ASUS\Desktop\Head First C#\JewelsClass[HowToInherit]\JewelsClass[HowToInherit]\obj\Debug\JewelsClass[HowToInherit].csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\Head First C#\JewelsClass[HowToInherit]\JewelsClass[HowToInherit]\obj\Debug\JewelsClass[HowToInherit].csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Head First C#\JewelsClass[HowToInherit]\JewelsClass[HowToInherit]\obj\Debug\JewelsClass[HowToInherit].exe
+C:\Users\ASUS\Desktop\Head First C#\JewelsClass[HowToInherit]\JewelsClass[HowToInherit]\obj\Debug\JewelsClass[HowToInherit].pdb

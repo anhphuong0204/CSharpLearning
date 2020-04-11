@@ -1,0 +1,10 @@
+C:\Users\ASUS\Desktop\Head First C#\CalcPartyFeeVer2\CalcPartyFeeVer2\bin\Debug\CalcPartyFeeVer2.exe.config
+C:\Users\ASUS\Desktop\Head First C#\CalcPartyFeeVer2\CalcPartyFeeVer2\bin\Debug\CalcPartyFeeVer2.exe
+C:\Users\ASUS\Desktop\Head First C#\CalcPartyFeeVer2\CalcPartyFeeVer2\bin\Debug\CalcPartyFeeVer2.pdb
+C:\Users\ASUS\Desktop\Head First C#\CalcPartyFeeVer2\CalcPartyFeeVer2\obj\Debug\CalcPartyFeeVer2.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\Head First C#\CalcPartyFeeVer2\CalcPartyFeeVer2\obj\Debug\CalcPartyFeeVer2.Properties.Resources.resources
+C:\Users\ASUS\Desktop\Head First C#\CalcPartyFeeVer2\CalcPartyFeeVer2\obj\Debug\CalcPartyFeeVer2.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\Head First C#\CalcPartyFeeVer2\CalcPartyFeeVer2\obj\Debug\CalcPartyFeeVer2.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Head First C#\CalcPartyFeeVer2\CalcPartyFeeVer2\obj\Debug\CalcPartyFeeVer2.exe
+C:\Users\ASUS\Desktop\Head First C#\CalcPartyFeeVer2\CalcPartyFeeVer2\obj\Debug\CalcPartyFeeVer2.pdb
+C:\Users\ASUS\Desktop\Head First C#\CalcPartyFeeVer2\CalcPartyFeeVer2\obj\Debug\CalcPartyFeeVer2.Form1.resources
