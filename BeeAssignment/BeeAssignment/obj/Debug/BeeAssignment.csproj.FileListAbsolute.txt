@@ -1,0 +1,10 @@
+C:\Users\ASUS\Desktop\Head First C#\BeeAssignment\BeeAssignment\bin\Debug\BeeAssignment.exe.config
+C:\Users\ASUS\Desktop\Head First C#\BeeAssignment\BeeAssignment\bin\Debug\BeeAssignment.exe
+C:\Users\ASUS\Desktop\Head First C#\BeeAssignment\BeeAssignment\bin\Debug\BeeAssignment.pdb
+C:\Users\ASUS\Desktop\Head First C#\BeeAssignment\BeeAssignment\obj\Debug\BeeAssignment.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\Head First C#\BeeAssignment\BeeAssignment\obj\Debug\BeeAssignment.Form1.resources
+C:\Users\ASUS\Desktop\Head First C#\BeeAssignment\BeeAssignment\obj\Debug\BeeAssignment.Properties.Resources.resources
+C:\Users\ASUS\Desktop\Head First C#\BeeAssignment\BeeAssignment\obj\Debug\BeeAssignment.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\Head First C#\BeeAssignment\BeeAssignment\obj\Debug\BeeAssignment.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Head First C#\BeeAssignment\BeeAssignment\obj\Debug\BeeAssignment.exe
+C:\Users\ASUS\Desktop\Head First C#\BeeAssignment\BeeAssignment\obj\Debug\BeeAssignment.pdb
