@@ -1,0 +1,10 @@
+C:\Users\ASUS\Desktop\Head First C#\BeeAssignmentVer2\BeeAssignmentVer2\obj\Debug\BeeAssignmentVer2.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\Head First C#\BeeAssignmentVer2\BeeAssignmentVer2\obj\Debug\BeeAssignmentVer2.Properties.Resources.resources
+C:\Users\ASUS\Desktop\Head First C#\BeeAssignmentVer2\BeeAssignmentVer2\obj\Debug\BeeAssignmentVer2.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\Head First C#\BeeAssignmentVer2\BeeAssignmentVer2\obj\Debug\BeeAssignmentVer2.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Head First C#\BeeAssignmentVer2\BeeAssignmentVer2\bin\Debug\BeeAssignmentVer2.exe.config
+C:\Users\ASUS\Desktop\Head First C#\BeeAssignmentVer2\BeeAssignmentVer2\bin\Debug\BeeAssignmentVer2.exe
+C:\Users\ASUS\Desktop\Head First C#\BeeAssignmentVer2\BeeAssignmentVer2\bin\Debug\BeeAssignmentVer2.pdb
+C:\Users\ASUS\Desktop\Head First C#\BeeAssignmentVer2\BeeAssignmentVer2\obj\Debug\BeeAssignmentVer2.Form1.resources
+C:\Users\ASUS\Desktop\Head First C#\BeeAssignmentVer2\BeeAssignmentVer2\obj\Debug\BeeAssignmentVer2.exe
+C:\Users\ASUS\Desktop\Head First C#\BeeAssignmentVer2\BeeAssignmentVer2\obj\Debug\BeeAssignmentVer2.pdb

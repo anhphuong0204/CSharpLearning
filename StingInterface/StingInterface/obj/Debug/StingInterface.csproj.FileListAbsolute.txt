@@ -1,0 +1,7 @@
+C:\Users\ASUS\Desktop\Head First C#\StingInterface\StingInterface\obj\Debug\StingInterface.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\Head First C#\StingInterface\StingInterface\obj\Debug\StingInterface.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Head First C#\StingInterface\StingInterface\bin\Debug\StingInterface.exe.config
+C:\Users\ASUS\Desktop\Head First C#\StingInterface\StingInterface\bin\Debug\StingInterface.exe
+C:\Users\ASUS\Desktop\Head First C#\StingInterface\StingInterface\bin\Debug\StingInterface.pdb
+C:\Users\ASUS\Desktop\Head First C#\StingInterface\StingInterface\obj\Debug\StingInterface.exe
+C:\Users\ASUS\Desktop\Head First C#\StingInterface\StingInterface\obj\Debug\StingInterface.pdb

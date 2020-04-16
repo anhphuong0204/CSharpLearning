@@ -1,0 +1,7 @@
+C:\Users\ASUS\Desktop\Head First C#\ImplementPeopleUsingInterface\ImplementPeopleUsingInterface\bin\Debug\ImplementPeopleUsingInterface.exe.config
+C:\Users\ASUS\Desktop\Head First C#\ImplementPeopleUsingInterface\ImplementPeopleUsingInterface\bin\Debug\ImplementPeopleUsingInterface.exe
+C:\Users\ASUS\Desktop\Head First C#\ImplementPeopleUsingInterface\ImplementPeopleUsingInterface\bin\Debug\ImplementPeopleUsingInterface.pdb
+C:\Users\ASUS\Desktop\Head First C#\ImplementPeopleUsingInterface\ImplementPeopleUsingInterface\obj\Debug\ImplementPeopleUsingInterface.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\Head First C#\ImplementPeopleUsingInterface\ImplementPeopleUsingInterface\obj\Debug\ImplementPeopleUsingInterface.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Head First C#\ImplementPeopleUsingInterface\ImplementPeopleUsingInterface\obj\Debug\ImplementPeopleUsingInterface.exe
+C:\Users\ASUS\Desktop\Head First C#\ImplementPeopleUsingInterface\ImplementPeopleUsingInterface\obj\Debug\ImplementPeopleUsingInterface.pdb
