@@ -1,0 +1,10 @@
+C:\Users\ASUS\Desktop\Head First C#\HouseSimulation\HouseSimulation\bin\Debug\HouseSimulation.exe.config
+C:\Users\ASUS\Desktop\Head First C#\HouseSimulation\HouseSimulation\bin\Debug\HouseSimulation.exe
+C:\Users\ASUS\Desktop\Head First C#\HouseSimulation\HouseSimulation\bin\Debug\HouseSimulation.pdb
+C:\Users\ASUS\Desktop\Head First C#\HouseSimulation\HouseSimulation\obj\Debug\HouseSimulation.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\Head First C#\HouseSimulation\HouseSimulation\obj\Debug\HouseSimulation.Form1.resources
+C:\Users\ASUS\Desktop\Head First C#\HouseSimulation\HouseSimulation\obj\Debug\HouseSimulation.Properties.Resources.resources
+C:\Users\ASUS\Desktop\Head First C#\HouseSimulation\HouseSimulation\obj\Debug\HouseSimulation.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\Head First C#\HouseSimulation\HouseSimulation\obj\Debug\HouseSimulation.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Head First C#\HouseSimulation\HouseSimulation\obj\Debug\HouseSimulation.exe
+C:\Users\ASUS\Desktop\Head First C#\HouseSimulation\HouseSimulation\obj\Debug\HouseSimulation.pdb

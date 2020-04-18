@@ -13,7 +13,7 @@ namespace ImplementPeopleUsingInterface
 
         public void ScareLittleChildren()
         {
-            Console.WriteLine("Boo! Gotcha!");
+            Console.WriteLine("You can't have my " + base.funnyThingIHave);
         }
         public ScaryScary (int numberOfScaryThings, string funnyFunny) : base(funnyFunny)
         {

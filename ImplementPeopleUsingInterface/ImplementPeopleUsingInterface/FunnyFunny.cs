@@ -8,7 +8,7 @@ namespace ImplementPeopleUsingInterface
 {
     class FunnyFunny : IClown
     {
-        private string funnyThingIHave;
+        protected string funnyThingIHave;
         public string FunnyThingIHave { get { return funnyThingIHave; } }
 
         public void Honk()
