@@ -60,16 +60,6 @@ namespace HouseSimulation
             listOfLocations.SelectedIndex = 0;
 
             // Descript where you are in
-            //if (currentLocation is Outside)
-            //{
-            //    Outside currentOutside = currentLocation as Outside;
-            //    descriptionBox.Text = currentOutside.Description;
-            //}
-            //else
-            //{
-            //    Room currentRoom = currentLocation as Room;
-            //    descriptionBox.Text = currentRoom.Description;
-            //}
             descriptionBox.Text = currentLocation.Description;
 
             // Check if new location has a door
