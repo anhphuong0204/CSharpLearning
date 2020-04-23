@@ -1,0 +1,7 @@
+C:\Users\ASUS\Desktop\Head First C#\CardsRandomAndSorting\CardsRandomAndSorting\bin\Debug\CardsRandomAndSorting.exe.config
+C:\Users\ASUS\Desktop\Head First C#\CardsRandomAndSorting\CardsRandomAndSorting\bin\Debug\CardsRandomAndSorting.exe
+C:\Users\ASUS\Desktop\Head First C#\CardsRandomAndSorting\CardsRandomAndSorting\bin\Debug\CardsRandomAndSorting.pdb
+C:\Users\ASUS\Desktop\Head First C#\CardsRandomAndSorting\CardsRandomAndSorting\obj\Debug\CardsRandomAndSorting.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\Head First C#\CardsRandomAndSorting\CardsRandomAndSorting\obj\Debug\CardsRandomAndSorting.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Head First C#\CardsRandomAndSorting\CardsRandomAndSorting\obj\Debug\CardsRandomAndSorting.exe
+C:\Users\ASUS\Desktop\Head First C#\CardsRandomAndSorting\CardsRandomAndSorting\obj\Debug\CardsRandomAndSorting.pdb

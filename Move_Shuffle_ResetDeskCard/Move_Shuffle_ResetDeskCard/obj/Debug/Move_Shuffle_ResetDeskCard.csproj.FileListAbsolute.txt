@@ -1,0 +1,10 @@
+C:\Users\ASUS\Desktop\Head First C#\Move_Shuffle_ResetDeskCard\Move_Shuffle_ResetDeskCard\obj\Debug\Move_Shuffle_ResetDeskCard.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\Head First C#\Move_Shuffle_ResetDeskCard\Move_Shuffle_ResetDeskCard\obj\Debug\Move_Shuffle_ResetDeskCard.Form1.resources
+C:\Users\ASUS\Desktop\Head First C#\Move_Shuffle_ResetDeskCard\Move_Shuffle_ResetDeskCard\obj\Debug\Move_Shuffle_ResetDeskCard.Properties.Resources.resources
+C:\Users\ASUS\Desktop\Head First C#\Move_Shuffle_ResetDeskCard\Move_Shuffle_ResetDeskCard\obj\Debug\Move_Shuffle_ResetDeskCard.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\Head First C#\Move_Shuffle_ResetDeskCard\Move_Shuffle_ResetDeskCard\obj\Debug\Move_Shuffle_ResetDeskCard.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Head First C#\Move_Shuffle_ResetDeskCard\Move_Shuffle_ResetDeskCard\bin\Debug\Move_Shuffle_ResetDeskCard.exe.config
+C:\Users\ASUS\Desktop\Head First C#\Move_Shuffle_ResetDeskCard\Move_Shuffle_ResetDeskCard\bin\Debug\Move_Shuffle_ResetDeskCard.exe
+C:\Users\ASUS\Desktop\Head First C#\Move_Shuffle_ResetDeskCard\Move_Shuffle_ResetDeskCard\bin\Debug\Move_Shuffle_ResetDeskCard.pdb
+C:\Users\ASUS\Desktop\Head First C#\Move_Shuffle_ResetDeskCard\Move_Shuffle_ResetDeskCard\obj\Debug\Move_Shuffle_ResetDeskCard.exe
+C:\Users\ASUS\Desktop\Head First C#\Move_Shuffle_ResetDeskCard\Move_Shuffle_ResetDeskCard\obj\Debug\Move_Shuffle_ResetDeskCard.pdb

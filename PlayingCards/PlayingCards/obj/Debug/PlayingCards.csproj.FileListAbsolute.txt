@@ -1,0 +1,10 @@
+C:\Users\ASUS\Desktop\Head First C#\PlayingCards\PlayingCards\bin\Debug\PlayingCards.exe.config
+C:\Users\ASUS\Desktop\Head First C#\PlayingCards\PlayingCards\bin\Debug\PlayingCards.exe
+C:\Users\ASUS\Desktop\Head First C#\PlayingCards\PlayingCards\bin\Debug\PlayingCards.pdb
+C:\Users\ASUS\Desktop\Head First C#\PlayingCards\PlayingCards\obj\Debug\PlayingCards.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\Head First C#\PlayingCards\PlayingCards\obj\Debug\PlayingCards.Form1.resources
+C:\Users\ASUS\Desktop\Head First C#\PlayingCards\PlayingCards\obj\Debug\PlayingCards.Properties.Resources.resources
+C:\Users\ASUS\Desktop\Head First C#\PlayingCards\PlayingCards\obj\Debug\PlayingCards.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\Head First C#\PlayingCards\PlayingCards\obj\Debug\PlayingCards.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Head First C#\PlayingCards\PlayingCards\obj\Debug\PlayingCards.exe
+C:\Users\ASUS\Desktop\Head First C#\PlayingCards\PlayingCards\obj\Debug\PlayingCards.pdb
