@@ -1,0 +1,10 @@
+C:\Users\ASUS\Desktop\Head First C#\ExcuseManagement\ExcuseManagement\bin\Debug\ExcuseManagement.exe.config
+C:\Users\ASUS\Desktop\Head First C#\ExcuseManagement\ExcuseManagement\bin\Debug\ExcuseManagement.exe
+C:\Users\ASUS\Desktop\Head First C#\ExcuseManagement\ExcuseManagement\bin\Debug\ExcuseManagement.pdb
+C:\Users\ASUS\Desktop\Head First C#\ExcuseManagement\ExcuseManagement\obj\Debug\ExcuseManagement.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\Head First C#\ExcuseManagement\ExcuseManagement\obj\Debug\ExcuseManagement.Form1.resources
+C:\Users\ASUS\Desktop\Head First C#\ExcuseManagement\ExcuseManagement\obj\Debug\ExcuseManagement.Properties.Resources.resources
+C:\Users\ASUS\Desktop\Head First C#\ExcuseManagement\ExcuseManagement\obj\Debug\ExcuseManagement.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\Head First C#\ExcuseManagement\ExcuseManagement\obj\Debug\ExcuseManagement.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Head First C#\ExcuseManagement\ExcuseManagement\obj\Debug\ExcuseManagement.exe
+C:\Users\ASUS\Desktop\Head First C#\ExcuseManagement\ExcuseManagement\obj\Debug\ExcuseManagement.pdb

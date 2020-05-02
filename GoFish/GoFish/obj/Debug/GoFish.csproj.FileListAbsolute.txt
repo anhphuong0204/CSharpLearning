@@ -1,0 +1,10 @@
+C:\Users\ASUS\Desktop\Head First C#\GoFish\GoFish\obj\Debug\GoFish.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\Head First C#\GoFish\GoFish\obj\Debug\GoFish.Form1.resources
+C:\Users\ASUS\Desktop\Head First C#\GoFish\GoFish\obj\Debug\GoFish.Properties.Resources.resources
+C:\Users\ASUS\Desktop\Head First C#\GoFish\GoFish\obj\Debug\GoFish.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\Head First C#\GoFish\GoFish\obj\Debug\GoFish.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Head First C#\GoFish\GoFish\bin\Debug\GoFish.exe.config
+C:\Users\ASUS\Desktop\Head First C#\GoFish\GoFish\bin\Debug\GoFish.exe
+C:\Users\ASUS\Desktop\Head First C#\GoFish\GoFish\bin\Debug\GoFish.pdb
+C:\Users\ASUS\Desktop\Head First C#\GoFish\GoFish\obj\Debug\GoFish.exe
+C:\Users\ASUS\Desktop\Head First C#\GoFish\GoFish\obj\Debug\GoFish.pdb

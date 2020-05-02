@@ -1,0 +1,10 @@
+C:\Users\ASUS\Desktop\Head First C#\OpenAndSaveFiles\OpenAndSaveFiles\bin\Debug\OpenAndSaveFiles.exe.config
+C:\Users\ASUS\Desktop\Head First C#\OpenAndSaveFiles\OpenAndSaveFiles\bin\Debug\OpenAndSaveFiles.exe
+C:\Users\ASUS\Desktop\Head First C#\OpenAndSaveFiles\OpenAndSaveFiles\bin\Debug\OpenAndSaveFiles.pdb
+C:\Users\ASUS\Desktop\Head First C#\OpenAndSaveFiles\OpenAndSaveFiles\obj\Debug\OpenAndSaveFiles.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\Head First C#\OpenAndSaveFiles\OpenAndSaveFiles\obj\Debug\OpenAndSaveFiles.Form1.resources
+C:\Users\ASUS\Desktop\Head First C#\OpenAndSaveFiles\OpenAndSaveFiles\obj\Debug\OpenAndSaveFiles.Properties.Resources.resources
+C:\Users\ASUS\Desktop\Head First C#\OpenAndSaveFiles\OpenAndSaveFiles\obj\Debug\OpenAndSaveFiles.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\Head First C#\OpenAndSaveFiles\OpenAndSaveFiles\obj\Debug\OpenAndSaveFiles.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Head First C#\OpenAndSaveFiles\OpenAndSaveFiles\obj\Debug\OpenAndSaveFiles.exe
+C:\Users\ASUS\Desktop\Head First C#\OpenAndSaveFiles\OpenAndSaveFiles\obj\Debug\OpenAndSaveFiles.pdb
