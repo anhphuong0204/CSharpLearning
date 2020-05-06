@@ -184,12 +184,12 @@ namespace ExploringDungeons
 
         public bool Nearby(Point locationToCheck, Point target, int distance)
         {
-            
+            return true;
         }
 
         public Point Move(Direction direction, Point target, Rectangle boundaries)
         {
-
+            return new Point();
         }
     }
 }

@@ -1,0 +1,10 @@
+C:\Users\ASUS\Desktop\Head First C#\ExploringDungeons\ExploringDungeons\obj\Debug\ExploringDungeons.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\Head First C#\ExploringDungeons\ExploringDungeons\obj\Debug\ExploringDungeons.Form1.resources
+C:\Users\ASUS\Desktop\Head First C#\ExploringDungeons\ExploringDungeons\obj\Debug\ExploringDungeons.Properties.Resources.resources
+C:\Users\ASUS\Desktop\Head First C#\ExploringDungeons\ExploringDungeons\obj\Debug\ExploringDungeons.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\Head First C#\ExploringDungeons\ExploringDungeons\obj\Debug\ExploringDungeons.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Head First C#\ExploringDungeons\ExploringDungeons\bin\Debug\ExploringDungeons.exe.config
+C:\Users\ASUS\Desktop\Head First C#\ExploringDungeons\ExploringDungeons\bin\Debug\ExploringDungeons.exe
+C:\Users\ASUS\Desktop\Head First C#\ExploringDungeons\ExploringDungeons\bin\Debug\ExploringDungeons.pdb
+C:\Users\ASUS\Desktop\Head First C#\ExploringDungeons\ExploringDungeons\obj\Debug\ExploringDungeons.exe
+C:\Users\ASUS\Desktop\Head First C#\ExploringDungeons\ExploringDungeons\obj\Debug\ExploringDungeons.pdb
