@@ -12,7 +12,7 @@ namespace ExploringDungeons
         Up,
         Down,
         Left,
-        Right
+        Right,
     }
 
     abstract class Mover
@@ -106,12 +106,20 @@ namespace ExploringDungeons
             base.location = Move(direction, game.Boundaries);
             if (!game.WeaponInRoom.PickedUp)
             {
-                // see if the weapon is nearby, and possibly pick it up
+                if (base.Nearby(game.WeaponInRoom.Location, 20))
+                {
+                    game.WeaponInRoom.PickUpWeapon();
+                    inventory.Add(game.WeaponInRoom);
+                }
             }
         }
         public void Attack(Direction direction, Random random)
         {
-            // Your code goes here
+            if (inventory.Count == 0)
+                return;
+            equippedWeapon.Attack(direction, random);
+            if (equippedWeapon is IPotion)
+                inventory.Remove(equippedWeapon);
         }
     }
     
@@ -127,8 +135,7 @@ namespace ExploringDungeons
                 else return false;
             }
         }
-        public Enemy(Game game, Point location, int hitPoints)
-        : base(game, location) { HitPoints = hitPoints; }
+        public Enemy(Game game, Point location, int hitPoints) : base(game, location) { HitPoints = hitPoints; }
         public abstract void Move(Random random);
         public void Hit(int maxDamage, Random random)
         {
@@ -160,11 +167,10 @@ namespace ExploringDungeons
         {
             PickedUp = false;
         }
-            public void PickUpWeapon() { PickedUp = true; }
+        public void PickUpWeapon() { PickedUp = true; }
         public abstract string Name { get; }
         public abstract void Attack(Direction direction, Random random);
-        protected bool DamageEnemy(Direction direction, int radius,
-        int damage, Random random)
+        protected bool DamageEnemy(Direction direction, int radius, int damage, Random random)
         {
             Point target = game.PlayerLocation;
             for (int distance = 0; distance < radius; distance++)
@@ -184,12 +190,21 @@ namespace ExploringDungeons
 
         public bool Nearby(Point locationToCheck, Point target, int distance)
         {
+            double x = (double)locationToCheck.X - target.X;
+            double y = (double)locationToCheck.Y - target.Y;
+            int trueDistance = (int)Math.Sqrt(Math.Pow(x, 2) + Math.Pow(y - target.Y, 2));
+            if (trueDistance > distance)
+                return false;
             return true;
         }
 
         public Point Move(Direction direction, Point target, Rectangle boundaries)
         {
-            return new Point();
+            Point preLocation = location;
+            location = target;
+            target = base.Move(direction, boundaries);
+            location = preLocation;
+            return preLocation;
         }
     }
 }

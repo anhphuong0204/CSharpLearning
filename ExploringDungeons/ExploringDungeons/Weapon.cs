@@ -15,6 +15,13 @@ namespace ExploringDungeons
         public override void Attack(Direction direction, Random random)
         {
             // Your code goes here
+            int timeAttack = 0;
+            while (!DamageEnemy(direction, 10, 3, random)) {
+                timeAttack++;
+                direction = (Direction)(((int)direction + 1) % 4);
+                if (timeAttack == 3)
+                    return;
+            }
         }
     }
 
@@ -26,6 +33,7 @@ namespace ExploringDungeons
         public override void Attack(Direction direction, Random random)
         {
             // Your code goes here
+            DamageEnemy(direction, 30, 1, random);
         }
     }
 
@@ -37,6 +45,14 @@ namespace ExploringDungeons
         public override void Attack(Direction direction, Random random)
         {
             // Your code goes here
+            int timeAttack = 0;
+            while (!DamageEnemy(direction, 20, 6, random))
+            {
+                timeAttack++;
+                direction = (Direction)(((int)direction + 1) % 4);
+                if (timeAttack == 4)
+                    return;
+            }
         }
     }
 }

@@ -22,8 +22,7 @@ namespace ExploringDungeons
         public Game(Rectangle boundaries)
         {
             this.boundaries = boundaries;
-            player = new Player(this,
-            new Point(boundaries.Left + 10, boundaries.Top + 70));
+            player = new Player(this, new Point(boundaries.Left + 10, boundaries.Top + 70));
         }
         public void Move(Direction direction, Random random)
         {
@@ -66,11 +65,62 @@ namespace ExploringDungeons
             switch (level)
             {
                 case 1:
-                    Enemies = new List<Enemy>() {
-                                                    new Bat(this, GetRandomLocation(random)),
-                                                };
-                    WeaponInRoom = new Sword(this, GetRandomLocation(random));
+                    Enemies = new List<Enemy>() 
+                    {
+                         new Bat(this, GetRandomLocation(random)),
+                    };
+                    WeaponInRoom = new Mace(this, GetRandomLocation(random));
                     break;
+                case 2:
+                    Enemies = new List<Enemy>()
+                    {
+                        new Ghost(this, GetRandomLocation(random)),
+                    };
+                    WeaponInRoom = new BluePotion(this, GetRandomLocation(random));
+                    break;
+                case 3:
+                    Enemies = new List<Enemy>()
+                    {
+                        new Ghoul(this, GetRandomLocation(random)),
+                    };
+                    WeaponInRoom = new Bow(this, GetRandomLocation(random));
+                    break;
+                case 4:
+                    Enemies = new List<Enemy>()
+                    {
+                        new Bat(this, GetRandomLocation(random)),
+                        new Ghost(this, GetRandomLocation(random)),
+                    };
+                    if (!CheckPlayerInventory("Blue Potion"))
+                        WeaponInRoom = new BluePotion(this, GetRandomLocation(random));
+                    break;
+                case 5:
+                    Enemies = new List<Enemy>()
+                    {
+                        new Bat(this, GetRandomLocation(random)),
+                        new Ghoul(this, GetRandomLocation(random)),
+                    };
+                    WeaponInRoom = new RedPotion(this, GetRandomLocation(random));
+                    break;
+                case 6:
+                    Enemies = new List<Enemy>()
+                    {
+                        new Ghost(this, GetRandomLocation(random)),
+                        new Ghoul(this, GetRandomLocation(random)),
+                    };
+                    WeaponInRoom = new Mace(this, GetRandomLocation(random));
+                    break;
+                case 7:
+                    Enemies = new List<Enemy>()
+                    {
+                        new Bat(this, GetRandomLocation(random)),
+                        new Ghost(this, GetRandomLocation(random)),
+                        new Ghoul(this, GetRandomLocation(random)),
+                    };
+                    if (!CheckPlayerInventory("Red Potion"))
+                        WeaponInRoom = new RedPotion(this, GetRandomLocation(random));
+                    break;
+                default: break;
             }
         }
     }

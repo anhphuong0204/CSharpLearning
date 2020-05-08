@@ -49,62 +49,80 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
+            this.playerHitPoints = new System.Windows.Forms.Label();
+            this.ghostHitPoints = new System.Windows.Forms.Label();
+            this.ghoulHitPoints = new System.Windows.Forms.Label();
+            this.batHitPoints = new System.Windows.Forms.Label();
+            this.player = new System.Windows.Forms.PictureBox();
+            this.ghoul = new System.Windows.Forms.PictureBox();
+            this.ghost = new System.Windows.Forms.PictureBox();
+            this.bat = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.sword)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.mace)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.redPotion)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bow)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bluePotion)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.player)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ghoul)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ghost)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bat)).BeginInit();
             this.SuspendLayout();
             // 
             // sword
             // 
+            this.sword.BackColor = System.Drawing.Color.Transparent;
             this.sword.Image = ((System.Drawing.Image)(resources.GetObject("sword.Image")));
             this.sword.Location = new System.Drawing.Point(76, 320);
             this.sword.Name = "sword";
             this.sword.Size = new System.Drawing.Size(50, 50);
             this.sword.TabIndex = 0;
             this.sword.TabStop = false;
+            this.sword.Click += new System.EventHandler(this.sword_Click);
             // 
             // mace
             // 
+            this.mace.BackColor = System.Drawing.Color.Transparent;
             this.mace.Image = ((System.Drawing.Image)(resources.GetObject("mace.Image")));
             this.mace.Location = new System.Drawing.Point(300, 320);
             this.mace.Name = "mace";
             this.mace.Size = new System.Drawing.Size(50, 50);
             this.mace.TabIndex = 1;
             this.mace.TabStop = false;
+            this.mace.Click += new System.EventHandler(this.mace_Click);
             // 
             // redPotion
             // 
+            this.redPotion.BackColor = System.Drawing.Color.Transparent;
             this.redPotion.Image = ((System.Drawing.Image)(resources.GetObject("redPotion.Image")));
             this.redPotion.Location = new System.Drawing.Point(244, 320);
             this.redPotion.Name = "redPotion";
             this.redPotion.Size = new System.Drawing.Size(50, 50);
             this.redPotion.TabIndex = 2;
             this.redPotion.TabStop = false;
+            this.redPotion.Click += new System.EventHandler(this.redPotion_Click);
             // 
             // bow
             // 
+            this.bow.BackColor = System.Drawing.Color.Transparent;
             this.bow.Image = ((System.Drawing.Image)(resources.GetObject("bow.Image")));
             this.bow.Location = new System.Drawing.Point(188, 320);
             this.bow.Name = "bow";
             this.bow.Size = new System.Drawing.Size(50, 50);
             this.bow.TabIndex = 3;
             this.bow.TabStop = false;
+            this.bow.Click += new System.EventHandler(this.bow_Click);
             // 
             // bluePotion
             // 
+            this.bluePotion.BackColor = System.Drawing.Color.Transparent;
             this.bluePotion.Image = ((System.Drawing.Image)(resources.GetObject("bluePotion.Image")));
             this.bluePotion.Location = new System.Drawing.Point(132, 320);
             this.bluePotion.Name = "bluePotion";
             this.bluePotion.Size = new System.Drawing.Size(50, 50);
             this.bluePotion.TabIndex = 4;
             this.bluePotion.TabStop = false;
+            this.bluePotion.Click += new System.EventHandler(this.bluePotion_Click);
             // 
             // moveUp
             // 
@@ -114,6 +132,7 @@
             this.moveUp.TabIndex = 5;
             this.moveUp.Text = "↑";
             this.moveUp.UseVisualStyleBackColor = true;
+            this.moveUp.Click += new System.EventHandler(this.moveUp_Click);
             // 
             // moveLeft
             // 
@@ -123,6 +142,7 @@
             this.moveLeft.TabIndex = 6;
             this.moveLeft.Text = "←";
             this.moveLeft.UseVisualStyleBackColor = true;
+            this.moveLeft.Click += new System.EventHandler(this.moveLeft_Click);
             // 
             // moveRight
             // 
@@ -132,6 +152,7 @@
             this.moveRight.TabIndex = 7;
             this.moveRight.Text = "→";
             this.moveRight.UseVisualStyleBackColor = true;
+            this.moveRight.Click += new System.EventHandler(this.moveRight_Click);
             // 
             // moveDown
             // 
@@ -141,6 +162,7 @@
             this.moveDown.TabIndex = 8;
             this.moveDown.Text = "↓";
             this.moveDown.UseVisualStyleBackColor = true;
+            this.moveDown.Click += new System.EventHandler(this.moveDown_Click);
             // 
             // atkDown
             // 
@@ -150,6 +172,7 @@
             this.atkDown.TabIndex = 12;
             this.atkDown.Text = "↓";
             this.atkDown.UseVisualStyleBackColor = true;
+            this.atkDown.Click += new System.EventHandler(this.atkDown_Click);
             // 
             // atkRight
             // 
@@ -159,6 +182,7 @@
             this.atkRight.TabIndex = 11;
             this.atkRight.Text = "→";
             this.atkRight.UseVisualStyleBackColor = true;
+            this.atkRight.Click += new System.EventHandler(this.atkRight_Click);
             // 
             // atkLeft
             // 
@@ -168,6 +192,7 @@
             this.atkLeft.TabIndex = 10;
             this.atkLeft.Text = "←";
             this.atkLeft.UseVisualStyleBackColor = true;
+            this.atkLeft.Click += new System.EventHandler(this.atkLeft_Click);
             // 
             // atkUp
             // 
@@ -177,6 +202,7 @@
             this.atkUp.TabIndex = 9;
             this.atkUp.Text = "↑";
             this.atkUp.UseVisualStyleBackColor = true;
+            this.atkUp.Click += new System.EventHandler(this.atkUp_Click);
             // 
             // label1
             // 
@@ -208,26 +234,26 @@
             this.tableLayoutPanel1.Controls.Add(this.label4, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.label5, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.label6, 0, 3);
-            this.tableLayoutPanel1.Controls.Add(this.label7, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.label9, 1, 2);
-            this.tableLayoutPanel1.Controls.Add(this.label10, 1, 3);
-            this.tableLayoutPanel1.Controls.Add(this.label8, 1, 1);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(416, 242);
+            this.tableLayoutPanel1.Controls.Add(this.playerHitPoints, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.ghostHitPoints, 1, 2);
+            this.tableLayoutPanel1.Controls.Add(this.ghoulHitPoints, 1, 3);
+            this.tableLayoutPanel1.Controls.Add(this.batHitPoints, 1, 1);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(440, 246);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 4;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 52.63158F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 47.36842F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 16F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(120, 65);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(120, 60);
             this.tableLayoutPanel1.TabIndex = 15;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(3, 16);
+            this.label3.Location = new System.Drawing.Point(3, 13);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(23, 13);
+            this.label3.Size = new System.Drawing.Size(23, 12);
             this.label3.TabIndex = 0;
             this.label3.Text = "Bat";
             // 
@@ -243,7 +269,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(3, 30);
+            this.label5.Location = new System.Drawing.Point(3, 25);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(35, 13);
             this.label5.TabIndex = 2;
@@ -252,47 +278,87 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(3, 46);
+            this.label6.Location = new System.Drawing.Point(3, 41);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(35, 13);
             this.label6.TabIndex = 3;
             this.label6.Text = "Ghoul";
             // 
-            // label7
+            // playerHitPoints
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(53, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(35, 13);
-            this.label7.TabIndex = 4;
-            this.label7.Text = "label7";
+            this.playerHitPoints.AutoSize = true;
+            this.playerHitPoints.Location = new System.Drawing.Point(53, 0);
+            this.playerHitPoints.Name = "playerHitPoints";
+            this.playerHitPoints.Size = new System.Drawing.Size(35, 13);
+            this.playerHitPoints.TabIndex = 4;
+            this.playerHitPoints.Text = "label7";
             // 
-            // label8
+            // ghostHitPoints
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(53, 16);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(35, 13);
-            this.label8.TabIndex = 5;
-            this.label8.Text = "label8";
+            this.ghostHitPoints.AutoSize = true;
+            this.ghostHitPoints.Location = new System.Drawing.Point(53, 25);
+            this.ghostHitPoints.Name = "ghostHitPoints";
+            this.ghostHitPoints.Size = new System.Drawing.Size(35, 13);
+            this.ghostHitPoints.TabIndex = 6;
+            this.ghostHitPoints.Text = "label9";
             // 
-            // label9
+            // ghoulHitPoints
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(53, 30);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(35, 13);
-            this.label9.TabIndex = 6;
-            this.label9.Text = "label9";
+            this.ghoulHitPoints.AutoSize = true;
+            this.ghoulHitPoints.Location = new System.Drawing.Point(53, 41);
+            this.ghoulHitPoints.Name = "ghoulHitPoints";
+            this.ghoulHitPoints.Size = new System.Drawing.Size(41, 13);
+            this.ghoulHitPoints.TabIndex = 7;
+            this.ghoulHitPoints.Text = "label10";
             // 
-            // label10
+            // batHitPoints
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(53, 46);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(41, 13);
-            this.label10.TabIndex = 7;
-            this.label10.Text = "label10";
+            this.batHitPoints.AutoSize = true;
+            this.batHitPoints.Location = new System.Drawing.Point(53, 13);
+            this.batHitPoints.Name = "batHitPoints";
+            this.batHitPoints.Size = new System.Drawing.Size(64, 12);
+            this.batHitPoints.TabIndex = 5;
+            this.batHitPoints.Text = "batHitPoints";
+            // 
+            // player
+            // 
+            this.player.BackColor = System.Drawing.Color.Transparent;
+            this.player.Image = ((System.Drawing.Image)(resources.GetObject("player.Image")));
+            this.player.Location = new System.Drawing.Point(180, 12);
+            this.player.Name = "player";
+            this.player.Size = new System.Drawing.Size(50, 50);
+            this.player.TabIndex = 16;
+            this.player.TabStop = false;
+            // 
+            // ghoul
+            // 
+            this.ghoul.BackColor = System.Drawing.Color.Transparent;
+            this.ghoul.Image = ((System.Drawing.Image)(resources.GetObject("ghoul.Image")));
+            this.ghoul.Location = new System.Drawing.Point(124, 12);
+            this.ghoul.Name = "ghoul";
+            this.ghoul.Size = new System.Drawing.Size(50, 50);
+            this.ghoul.TabIndex = 17;
+            this.ghoul.TabStop = false;
+            // 
+            // ghost
+            // 
+            this.ghost.BackColor = System.Drawing.Color.Transparent;
+            this.ghost.Image = ((System.Drawing.Image)(resources.GetObject("ghost.Image")));
+            this.ghost.Location = new System.Drawing.Point(68, 12);
+            this.ghost.Name = "ghost";
+            this.ghost.Size = new System.Drawing.Size(50, 50);
+            this.ghost.TabIndex = 18;
+            this.ghost.TabStop = false;
+            // 
+            // bat
+            // 
+            this.bat.BackColor = System.Drawing.Color.Transparent;
+            this.bat.Image = ((System.Drawing.Image)(resources.GetObject("bat.Image")));
+            this.bat.Location = new System.Drawing.Point(12, 12);
+            this.bat.Name = "bat";
+            this.bat.Size = new System.Drawing.Size(50, 50);
+            this.bat.TabIndex = 19;
+            this.bat.TabStop = false;
             // 
             // Form1
             // 
@@ -300,6 +366,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(600, 396);
+            this.Controls.Add(this.bat);
+            this.Controls.Add(this.ghost);
+            this.Controls.Add(this.ghoul);
+            this.Controls.Add(this.player);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -329,6 +399,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.bluePotion)).EndInit();
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.player)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ghoul)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ghost)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bat)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -356,10 +430,14 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label playerHitPoints;
+        private System.Windows.Forms.Label ghostHitPoints;
+        private System.Windows.Forms.Label ghoulHitPoints;
+        private System.Windows.Forms.Label batHitPoints;
+        private System.Windows.Forms.PictureBox player;
+        private System.Windows.Forms.PictureBox ghoul;
+        private System.Windows.Forms.PictureBox ghost;
+        private System.Windows.Forms.PictureBox bat;
     }
 }
 

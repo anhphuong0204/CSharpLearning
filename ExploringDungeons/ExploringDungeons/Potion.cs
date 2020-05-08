@@ -20,6 +20,7 @@ namespace ExploringDungeons
         public override void Attack(Direction direction, Random random)
         {
             // increase player health up to 5p
+            game.IncreasePlayerHealth(5, random);
         }
     }
 
@@ -37,6 +38,7 @@ namespace ExploringDungeons
         public override void Attack(Direction direction, Random random)
         {
             // increase player health up to 10p
+            game.IncreasePlayerHealth(10, random);
         }
     }
 }
